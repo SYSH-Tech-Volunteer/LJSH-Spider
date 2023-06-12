@@ -7,6 +7,7 @@ backgroundColor: #000
 color: #fff
 backgroundImage: url("spider poster.svg")
 ---
+
 <style>
 marp-pre{
      border-radius: 13px;
@@ -23,4 +24,3 @@ code{
 西苑高中資訊志工
 
 ---
-對
