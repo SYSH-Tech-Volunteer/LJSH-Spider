@@ -3,9 +3,11 @@ marp: true
 theme: gaia
 _class: lead
 paginate: true
-backgroundColor: #fff
-backgroundImage: url("img/hero-background.svg")
+backgroundColor: #000
+color: #fff
+backgroundImage: url("spider poster.svg")
 ---
+
 <style>
 marp-pre{
      border-radius: 13px;
@@ -16,34 +18,9 @@ code{
 </style>
 
 
-# **網頁設計營隊**
+# **PYTHON爬蟲營隊**
 
 
 西苑高中資訊志工
 
 ---
-##開場
-1
-對
-
----
-##凱歌
-
----
-##python
-
-
----
-##html
-
-
----
-##爬蟲原理
-
-
----
-##爬蟲
-
-
----
-## 成果
