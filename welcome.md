@@ -6,6 +6,7 @@ paginate: true
 backgroundColor: #fff
 backgroundImage: url("img/hero-background.svg")
 ---
+
 <style>
 marp-pre{
      border-radius: 13px;
@@ -22,28 +23,3 @@ code{
 西苑高中資訊志工
 
 ---
-##開場
-1
-對
-
----
-##凱歌
-
----
-##python
-
-
----
-##html
-
-
----
-##爬蟲原理
-
-
----
-##爬蟲
-
-
----
-## 成果
