@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 url = "https://ljjhs.tc.edu.tw/p/403-1080-1244-1.php?Lang=zh-tw"
+titles_list = []
+links_list = []
+dates_list = []
 response = requests.get(url).text
 soup = BeautifulSoup(response, 'html5lib')
 tbody = soup.find('tbody') #6
