@@ -1,11 +1,14 @@
-# x = input("Hello World")
-# print(x)
-if(x>y):
-    if(x>z):
-        print(x)
-elif(x<y):
-    print(y)
-else:
-    print(z)
-# for i in range(3):
-#     print(i)
+from bs4 import BeautifulSoup
+import requests
+url = "https://ljjhs.tc.edu.tw/p/403-1080-1244-1.php?Lang=zh-tw"
+response = requests.get(url).text
+soup = BeautifulSoup(response, 'html5lib')
+tbody = soup.find('tbody') #6
+a_tag_list = tbody.find_all('a')
+for a_tag in a_tag_list:
+    links_list.append(a_tag.get('href')) 
+    titles_list.append(a_tag.get('title')) 
+td_tag_list = tbody.find_all('td', attrs={"data-th" : "日期"}) 
+for td_tag in td_tag_list:
+    div = td_tag.find("div")
+    dates_list.append(div.text.strip())
