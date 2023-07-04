@@ -11,4 +11,4 @@ else: #其他沒有分鐘就算小時收費
 
 if pay>300:
   pay=300
-print(f"合計停車時間{hr}時{mi}分,您要繳交{pay}元")
+print(f"要繳交{pay}元")
