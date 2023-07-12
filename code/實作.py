@@ -15,3 +15,7 @@ td_tag_list = tbody.find_all('td', attrs={"data-th" : "日期"})
 for td_tag in td_tag_list:
     div = td_tag.find("div")
     dates_list.append(div.text.strip())
+for title in titles_list:
+    print (title)
+for link in links_list:
+    print (link)
